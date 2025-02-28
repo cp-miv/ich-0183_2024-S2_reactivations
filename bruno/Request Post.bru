@@ -1,0 +1,21 @@
+meta {
+  name: Request Post
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://app.localho.st?article=wifi&price=199
+  body: multipartForm
+  auth: none
+}
+
+query {
+  article: wifi
+  price: 199
+}
+
+body:multipart-form {
+  firstname: Michael
+  lastname: Vogel
+}

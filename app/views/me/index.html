@@ -1,0 +1,11 @@
+Bienvenue sur ma page
+
+<h1>My friends</h1>
+
+<ul>
+    <?php foreach ($friends as $friend): ?>
+    <li>
+        <?= $friend['firstname'] ?>
+    </li>
+    <?php endforeach ?>
+</ul>
